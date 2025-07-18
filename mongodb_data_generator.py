@@ -210,7 +210,7 @@ class MongoDataGenerator:
 
 
 def main():
-    CONNECTION_STRING = "mongodb+srv://mongoadmin:mongoadmin@pocs.wktu1.mongodb.net/"
+    CONNECTION_STRING = "mongodb+srv://mongoadmin:<password>@pocs.wktu1.mongodb.net/"
 
     try:
         generator = MongoDataGenerator(CONNECTION_STRING)
